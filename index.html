@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <script async src="index.js"></script>
+    <title>Buscador</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+        <form class= 'search-form'><input class= "search-input"type="buscar" name="buscar" placeholder="Lavarropas"> <button class="search-button">Buscar</button></form>
+        </div>
+        
+    </header>
+
+    <div class="content">
+        <h3 class="results">Resultados: <span class="result-count"></span></h3>
+        <template id="template">
+        <div class="results">
+
+            <div class="result-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png" alt="" class="result-item-img">
+            <div class="result-item-content">
+        <div class="result-item-content">
+                <h4 class="result-item-title">titulo</h4>
+                <p class="result-item-condition">Nuevo</p>
+                <p class="result-item-sell-count">Vendidos: <span class="result-item-sell-count-num"></span> </p>
+            </div>
+            </div>
+            <div class="result-item-price">35353</div>
+        </template>
+    </div>
+
+</body>
+</html>
